@@ -1,0 +1,1 @@
+# Sprint 3 — Task 02: PATTERNS
