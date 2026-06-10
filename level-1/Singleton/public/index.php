@@ -10,11 +10,8 @@ $tigger2 = Tigger::getInstance();
 
 var_dump($tigger === $tigger2);
 
-$tigger->roar();
-$tigger->roar();
-$tigger->roar();
-$tigger->roar();
-$tigger->roar();
-$tigger->roar();
+for ($i = 0; $i < 6; $i++) {
+    $tigger->roar();
+}
 
 echo "Roars: " . $tigger->getCounter() . " times." .  PHP_EOL;
